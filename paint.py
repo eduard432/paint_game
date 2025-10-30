@@ -1,4 +1,5 @@
 from turtle import *
+turtle_circle = circle  # guardar la función original de turtle
 from freegames import vector
 
 def line(start, end):
@@ -22,8 +23,18 @@ def square(start, end):
     end_fill()
 
 def circle(start, end):
-    "Draw circle from start to end."
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+
+    # Radio calculado como distancia entre los puntos
+    radius = (end.x - start.x)
+    turtle_circle(radius)
+
+
+    end_fill()
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
