@@ -29,6 +29,7 @@ Este es un programa de dibujo interactivo que te permite crear formas geométric
 - `G` - **Verde** (Green)
 - `B` - **Azul** (Blue)
 - `R` - **Rojo** (Red)
+- `M` - **Magenta** (Magenta)
 
 #### Otras Funciones
 - `U` - **Deshacer**: Elimina el último dibujo
@@ -38,9 +39,9 @@ Este es un programa de dibujo interactivo que te permite crear formas geométric
 ### ✅ Implementadas
 - **Línea**: Dibuja una línea recta desde el punto inicial hasta el punto final
 - **Cuadrado**: Dibuja un cuadrado relleno usando la distancia horizontal como tamaño
+- **Círculo**: Dibuja un circulo calculando el radio con punto inicial y punto final
 
 ### 🚧 Por Implementar (TODO)
-- **Círculo**: Función definida pero sin implementación
 - **Rectángulo**: Función definida pero sin implementación
 - **Triángulo**: Función definida pero sin implementación
 
